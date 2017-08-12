@@ -6,4 +6,5 @@ npm-debug.log
 hexo-theme-next
 
 #package
+db.json
 public

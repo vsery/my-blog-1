@@ -2,6 +2,8 @@
 
 我的个人博客项目，使用[hexo](https://github.com/hexojs/hexo)编写。
 
+[点击访问](http://classlfz.github.io)
+
 ```sh
 # 安装全局依赖
 

@@ -8,7 +8,7 @@ tags:
 ---
 > 作为一个前端开发人员，这次的这篇博客文章终于“正常”了。
 
-这应该算是一个造轮子的实践，JS的图片开源裁剪器有很多，像使用JQuery库编写的`copper`插件很多，在github上边的star数量也不少，现流行的前端框架也肯定有对应的图片裁剪器，都是可以选择的成熟的技术方案。但不是所有的情况都能适用，设计师的要求，本身项目的条件限制等等原因，有些时候，还是“自己动手，丰衣足食”啊！
+这应该算是一个造轮子的实践，JS的图片开源裁剪器有很多，像使用JQuery库编写的`cropper`插件很多，在github上边的star数量也不少，现流行的前端框架也肯定有对应的图片裁剪器，都是可以选择的成熟的技术方案。但不是所有的情况都能适用，设计师的要求，本身项目的条件限制等等原因，有些时候，还是“自己动手，丰衣足食”啊！
 
 **因为用到了很多`html5`的特性，所以，这里编写的图片裁剪器，只能是适合于支持这些HTML5特性的浏览器才能够正常的使用。**
 
@@ -335,4 +335,4 @@ function crop() {
 
 ## 例子
 
-<a href="https://github.com/classlfz/my-blog/examples/write-an-image-scissors.html" download="write-an-image-scissors">下载例子</a>
+[查看完整代码](https://github.com/classLfz/my-blog/blob/master/examples/write-an-image-scissors.html)
