@@ -103,7 +103,7 @@ tags:
 
 ## 添加框选可视化元素
 
-[框选可视化示意图](http://upload-images.jianshu.io/upload_images/1626912-4935e189ce4098e9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![框选可视化示意图](http://upload-images.jianshu.io/upload_images/1626912-4935e189ce4098e9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 我们有了事件监听还不够，为了更好的交互效果，我们需要一个随时跟随着鼠标移动的框选框元素，用于让用户随时感知框选范围。
 
@@ -168,7 +168,7 @@ tags:
 
 ## 添加鼠标松开事件监听
 
-[元素是否被选中示意图](http://upload-images.jianshu.io/upload_images/1626912-7af06a966948fc67.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![元素是否被选中示意图](http://upload-images.jianshu.io/upload_images/1626912-7af06a966948fc67.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 我们没有在鼠标移动的时候去实时统计被框选到的DOM元素，如果需要实时统计或者实时修改被选择的DOM元素的样式，以便更准确的让用户感知到被框选的内容的话，可以选择在`mousemove`事件里边去实现以下代码：
 
@@ -268,7 +268,7 @@ tags:
 
 换言之，就是修改`mousedown`跟`mousemove`事件时，初始位置由原来的`e.clientX`跟`e.clientY`修改为`e.clientX - selectContaienr.offsetLeft + selectContainer.scrollLeft`跟`e.clientY - selectContainer.offsetTop + selectContainer.scrollTop`。
 
-[坐标更改示意图](http://upload-images.jianshu.io/upload_images/1626912-5c8b631b43846fb8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![坐标更改示意图](http://upload-images.jianshu.io/upload_images/1626912-5c8b631b43846fb8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ```html
 <html>
